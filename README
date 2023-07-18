@@ -28,9 +28,9 @@ Note: channel names and their channel links are simply hardcoded in this current
 ## Installation and Usage
 
 1. Clone this repository.
-1. Install the required Python packages: pip install -r requirements.txt
-1. Create and set up the .env file as described above.
-1. Run the bot: python bot.py
+2. Install the required Python packages: pip install -r requirements.txt
+3. Create and set up the .env file as described above.
+4. Run the bot: python bot.py
 
 ## Dependencies
 
