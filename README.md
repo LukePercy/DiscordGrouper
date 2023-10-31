@@ -1,7 +1,13 @@
 # Discord Group Maker Bot
 
-This is a simple Discord bot that allows a server admin or a user with appropriate permissions to randomize and assign server members to different voice channels each day.
+This is a simple Discord bot that allows a server admin or a user with appropriate permissions to randomize and assign server members to different voice channels daily.
 It was used to randomly set up remote socials each morning for teams using Discord.
+
+Go to https://discord.com/developers/applications to set up a Discord Application to create the bot user with the following intents to create a token:
+
+* Bot
+* read/write messages
+* read channels/members/guilds
 
 ## Features
 
@@ -18,8 +24,8 @@ You need to provide the following environment variables in a .env file:
 * GOBLINS_CHANNEL_URL=your_discord_channel_url
 * CROCS_CHANNEL_URL=your_discord_channel_url
 
-Replace your_bot_token with your actual Discord bot token and your_discord_channel_url with your actual Discord channel URLs.
-Note: channel names and their channel links are simply hardcoded in this current iteration.
+Replace your_bot_token with your Discord bot token and your_discord_channel_url with your actual Discord channel URLs.
+Note: channel names and their channel links are hardcoded in this current iteration.
 
 ## Commands
 
